@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-center-news',
@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./center-news.component.css']
 })
 export class CenterNewsComponent {
+  @Input()
+  photo: string = ""
+  @Input()
+  title: string = ""
+  @Input()
+  description: string = ""
+  @Input()
+  id: string = "0"
 
 }
