@@ -3,11 +3,11 @@
     <img src="{{ photo }}" alt="photo" height="200px" width="300px">
   </div>
   <div class="title">
-    <h1><a href="">{{ title }}</a></h1>
+    <h1><a [routerLink]="['news', id]">{{ title }}</a></h1>
   </div>
   <div class="description">
     <p>
-      <a href="#">{{ description }}</a>
+      <a [routerLink]="['news', id]">{{ description }}</a>
     </p>
   </div>
 </div>
