@@ -8,6 +8,7 @@ import { CenterNewsComponent } from './components/center-news/center-news.compon
 import { SideNewsComponent } from './components/side-news/side-news.component';
 import { TitleComponent } from './components/title/title.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './pages/home/home.component';
     CenterNewsComponent,
     SideNewsComponent,
     TitleComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
