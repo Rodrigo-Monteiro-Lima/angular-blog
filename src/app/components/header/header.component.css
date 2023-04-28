@@ -7,3 +7,7 @@
   margin-right: 20px;
   list-style: none;
 }
+
+.container > ul > li > a:hover {
+  color: purple;
+}
