@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent {
+  photo: string = ""
+  title: string = ""
+  description: string = ""
+  #id: string | null = "0"
 
 }
